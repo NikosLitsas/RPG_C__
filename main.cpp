@@ -2,6 +2,7 @@
 
 int main() {
 
+    srand(time(NULL));
     // When Heroes !browsing market and !fight , they can checkInventory
     // Equip different Weapons/Armors or use potions
     // displayMap whenever
