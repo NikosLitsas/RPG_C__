@@ -1,13 +1,29 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include "Utilities.h"
+#include "Armor.h"
+#include "Weapon.h"
+#include "Potion.h"
+#include "Spell.h"
+#include <list>
+
 
 class Game {
 
+    list<Armor> *armors;
+    list<Weapon> *weapons;
 
+public:
+    Game();
 
 public:
     int fight();
+    void giveHP();
+    void giveMP();
+
+    list<Armor> *getArmors() const;
+    list<Weapon> *getWeapons() const;
 
 
 };

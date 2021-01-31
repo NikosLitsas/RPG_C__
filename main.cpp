@@ -9,7 +9,6 @@ int main() {
     // Info for each square, such as if Heroes are there, or what kind of Square that is
     // quitGame whenever
 
-    // Fight,
 
 
 

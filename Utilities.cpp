@@ -144,6 +144,7 @@ int Utilities::getRandomInt(int max)
     return rand()%max;
 }
 
+
 string Utilities::generateName(string type)         //Returns a random name from Vector
 {
     int pos;
